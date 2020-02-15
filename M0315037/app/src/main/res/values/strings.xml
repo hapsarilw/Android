@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">M0315037</string>
+
+    <string name="fragment1">New Fragment 1</string>
+    <string name="fragment2">New Fragment 2</string>
+    <string name="message">Message</string>
+    <string name="input_message">Insert Message</string>
+    <string name="page_2">Page 2</string>
+    <string name="page_1">Page 1</string>
+    <string name="submit">Submit</string>
+</resources>

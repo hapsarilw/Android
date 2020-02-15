@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <it.sephiroth.android.library.imagezoom.ImageViewTouch
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:id="@+id/images"/>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:visibility="gone"
+        style="@android:style/Widget.Material.Light.ProgressBar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        tools:targetApi="lollipop" />
+
+</FrameLayout>

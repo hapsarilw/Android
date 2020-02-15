@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:padding="20dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:id="@+id/btn_page2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/page2"
+            android:padding="20dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/border"
+            android:layout_marginTop="-1dp"/>
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exit"
+            android:padding="20dp"
+            android:layout_marginTop="-1dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/border"/>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

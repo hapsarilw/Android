@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundtab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/content_chap"/>
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab_menu"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:menu_fab_size="normal"
+        app:menu_shadowRadius="0dp"
+        app:menu_shadowXOffset="0dp"
+        app:menu_shadowYOffset="0dp"
+        app:menu_showShadow="false"
+        app:menu_icon="@drawable/ic_add_black_24dp"
+        app:menu_fab_label="Menu"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fab_increase"
+            android:src="@drawable/increase"
+            app:fab_label="Increase">
+        </com.github.clans.fab.FloatingActionButton>
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/decrease"
+            android:id="@+id/fab_decrease"
+
+            app:fab_label="Decrease"
+            />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</FrameLayout>
+

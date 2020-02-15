@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvResult"
+        android:padding="10dp"
+        android:text="Result"
+        android:background="@drawable/border">
+
+    </TextView>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/list_operation"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_btn"
+        android:layout_alignParentBottom="true"
+        android:text="Add"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/add_btn"
+        android:text="Result"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clear_btn"
+        android:layout_toRightOf="@id/result_btn"
+        android:layout_alignParentBottom="true"
+        android:text="Clear"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save_btn"
+        android:layout_toRightOf="@id/clear_btn"
+        android:layout_alignParentBottom="true"
+        android:text="Save"/>
+
+
+</RelativeLayout>

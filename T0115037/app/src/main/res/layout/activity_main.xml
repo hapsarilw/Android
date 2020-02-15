@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:layout_above="@+id/showNumber"
+        android:layout_centerInParent="true">
+    </Button>
+
+    <TextView
+        android:id="@+id/showNumber"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        >
+
+    </TextView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_toLeftOf="@+id/showNumber"
+        android:layout_centerInParent="true"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:layout_toRightOf="@+id/showNumber"
+        android:layout_centerInParent="true">
+    </Button>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/showNumber"
+        >
+
+    </Button>
+
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        >
+
+        <Button
+            android:id="@+id/plus_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            android:text="+"
+
+            />
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/opertorButton"
+            android:text="Reset">
+
+        </Button>
+
+    </LinearLayout>
+</RelativeLayout>
+
+<!--<RelativeLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:orientation="vertical" >-->
+
+
+
+<!--</RelativeLayout>-->
+
+
+
+
+
+

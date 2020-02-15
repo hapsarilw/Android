@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/label_barang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/barang"
+        />
+
+    <EditText
+        android:id="@+id/et_barang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/barang_hint"/>
+
+    <TextView
+        android:id="@+id/label_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/harga"
+        />
+    <EditText
+        android:id="@+id/et_harga"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/harga_hint"/>
+
+    <TextView
+        android:id="@+id/label_keterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/keterangan"
+        />
+    <EditText
+        android:id="@+id/et_keterangan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/keterangan_hint"/>
+
+    <Button
+        android:id="@+id/btn_page"
+        android:text="@string/add"
+        android:onClick="WriteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </Button>
+
+</LinearLayout>
+

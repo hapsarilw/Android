@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="header_calculator">Calculator</string>
+    
+    <string name="openDrawer">OP</string>
+    <string name="closeDrawer">OD</string>
+
+    <string-array name="spinner_name">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+
+    </string-array>
+
+    <string-array name="list_menu">
+        <item>HOME</item>
+        <item>ADD OPERATION</item>
+        <item>HISTORY</item>
+
+    </string-array>
+    <string name="action_settings">Settings</string>
+</resources>

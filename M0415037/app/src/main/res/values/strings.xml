@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">M0415037</string>
+    <string name="barang">Barang</string>
+    <string name="barang_hint">Masukan Nama Barang</string>
+    <string name="harga">Harga</string>
+    <string name="harga_hint">Masukan Nama Harga</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="keterangan_hint">Masukan Nama Keterangan</string>
+    <string name="add">Submit</string>
+</resources>

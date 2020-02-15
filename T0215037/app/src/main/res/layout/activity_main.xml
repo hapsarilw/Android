@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ListView
+        android:id="@+id/lst_foods"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/linear"/>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/btn_add"
+        android:background="@color/colorAccent">
+
+        <EditText
+            android:id="@+id/et_title"
+            android:hint="@string/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_details"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:hint="@string/details"
+            android:layout_height="wrap_content">
+        </EditText>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:layout_alignParentBottom="true">
+    </Button>
+
+</RelativeLayout>

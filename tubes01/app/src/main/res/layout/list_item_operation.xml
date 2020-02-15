@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOperand"        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOperator"
+        android:layout_toRightOf="@+id/tvOperand"/>
+
+    <ImageButton
+        android:id="@+id/trash_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@android:drawable/ic_menu_delete"
+        android:layout_alignParentEnd="true"
+        android:paddingEnd="10dp"        />
+
+
+
+</RelativeLayout>

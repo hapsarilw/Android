@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_ekspresi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ekspresi Matematika :"
+        />
+
+    <EditText
+        android:id="@+id/et_ekspresi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_ekspresi"
+        />
+    <TextView
+        android:id="@+id/tv_precision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precision :"
+        android:layout_below="@id/tv_ekspresi"
+        />
+
+    <EditText
+        android:id="@+id/et_precision"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_precision"
+        android:layout_below="@+id/et_ekspresi"
+        />
+    <Button
+        android:id="@+id/btn_hitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HITUNG"
+        android:layout_below="@id/et_precision"
+        />
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_height="wrap_content"
+        android:text="22"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/btn_hitung"/>
+
+</RelativeLayout>

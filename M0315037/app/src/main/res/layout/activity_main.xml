@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"    >
+
+    <!--sambungkan fragment dengan activity-->
+    <!--<fragment-->
+        <!--android:id="@+id/fragment_1"-->
+        <!--android:name="com.example.m0315037.FirstFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--&gt;-->
+    <!--</fragment>-->
+
+    <!--Specify VewGroup for Fragment in layout-->
+    <!--Pada layout activity_main, jika pada static fragment dibuat dengan menggunakan view-->
+    <!--<fragment>, pada dynamic fragment view tersebut diganti dengan ViewGroup (jenis ViewGroup-->
+    <!--bebas). ViewGroup ini yang akan tempat peletakan fragment. Ubahlah kode <fragment>-->
+    <!--untuk fragment 1 menjadi kode pada Gambar 3.-->
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    </FrameLayout>
+
+</LinearLayout>

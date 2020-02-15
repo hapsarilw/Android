@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:scaleType="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/avatar_comic"
+
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#03D0F4">
+
+
+       <LinearLayout
+           android:background="@drawable/border_avatar"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:padding="2dp"
+           android:gravity="center"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/name_avatar"
+               android:textStyle="bold"
+               android:textAlignment="center"
+               android:textSize="16sp"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="@color/divided"
+               android:padding="1dp">
+           </LinearLayout>
+           <TextView
+               android:id="@+id/avatar_author"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textAlignment="center"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="@color/divided"
+               android:padding="1dp">
+           </LinearLayout>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/avatar_date"
+               android:textAlignment="center"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="@color/divided"
+               >
+           </LinearLayout>
+
+           <TextView
+               android:id="@+id/avatar_categories"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textAlignment="center" />
+       </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradien_backend">
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:scrollbars="vertical"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

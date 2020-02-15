@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ShopManga</string>
+    <string name="Search_Button">Search</string>
+    <string name="Address_Search">Address</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="access_token">pk.eyJ1IjoiYXlvdWJtb3VocmkiLCJhIjoiY2p0Ymp4cmN4MGxkeDRhbGl0eTNoY25idyJ9.qf2m7yqI1u-syT4IBDbzcQ</string>
+    <string name="Details_button">details</string>
+    <string name="Manga_Name">Manga Name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="AddMangaFragement_name">Name</string>
+    <string name="AddMangaFragement_price">price</string>
+    <string name="AddMangaFragement_sellerName">Seller Name</string>
+    <string name="AddMangaFragement_telephone">Telephone</string>
+    <string name="Button_ListManga">Liste</string>
+    <string name="AddMangaFragment_Volume">Volume</string>
+    <string name="MyManga">My Manga</string>
+</resources>

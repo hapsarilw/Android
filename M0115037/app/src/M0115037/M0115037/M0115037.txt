@@ -1,0 +1,14 @@
+Nama : Hapsari Laksmi W
+NPM : 2015730037
+
+1. Layout yang mengatur tampilan lain baik secara horizontal dalam satu kolom atau secara vertikal dalam satu baris.
+2. 
+- match_parent : menjadikan tampilan diperluas selebar mungkin dalam tampilan utama
+- wrap_content : untuk setting ukuran ke dimensi yang sesuai agar konten sesuai dalam tampilan
+3.Karena pixels merupakan nilai pasti, sedangkan dip bersifat dinamis sehingga lebih mudah untuk
+mengikuti jenis screen yang beragam
+4. Apabila bahasa akan dirubah maka kode yang diganti tidak keseluruhan hanya
+bagian folder values nya saja.
+5. findViewById = metode untuk menemukan tampilan yang diatur dalam XML dnegan tag android: id
+6. karena pemanggilan fungsi tersebut tidak efisien dan tidak manageable
+7. mengimplementasikan View.OnClickListener di kelas MainActivity
